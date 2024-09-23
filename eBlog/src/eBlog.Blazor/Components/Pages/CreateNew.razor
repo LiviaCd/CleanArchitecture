@@ -1,0 +1,120 @@
+﻿@page "/create"
+@using MediatR
+@using Microsoft.AspNetCore.Components
+@using Microsoft.AspNetCore.Components.Forms
+@using Shared.Functions
+@using eBlog.Application.Blogs.Commands.CreateBlog
+@using eBlog.Application.DTOs
+@rendermode InteractiveServer
+
+<EditForm Model="@blog" FormName="createBlog" Enhance OnValidSubmit="HandleSubmit">
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Create New Post</h1>
+
+        <div class="row">
+            <!-- Left Column (Blog Details) -->
+            <div class="col-md-8">
+                <div class="form-group">
+                    <label for="TextOfBlog" class="font-weight-bold">Text of Blog</label>
+                    <InputTextArea id="TextOfBlog" @bind-Value="blog.TextOfBlog" class="form-control" placeholder="Write your blog content here" style="height: 500px; font-size: 16px;" />
+                </div>
+            </div>
+
+            <!-- Right Column (Image Upload) -->
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label for="Name">Blog Name</label>
+                    <InputText id="Name" @bind-Value="blog.Name" class="form-control" placeholder="Enter blog name here" />
+                </div>
+
+                <div class="form-group">
+                    <label for="Description">Description</label>
+                    <InputText id="Description" @bind-Value="blog.Description" class="form-control" placeholder="Enter a short description" />
+                </div>
+
+                <div class="form-group">
+                    <label for="Author">Author</label>
+                    <InputText id="Author" @bind-Value="blog.Author" class="form-control" placeholder="Author name" />
+                </div>
+               
+                <div class="form-group">
+                    <label for="ImageFile">
+                        <div class="custom-file">
+                            <InputFile id="ImageFile" OnChange="HandleFileSelected" />
+
+                    </div>
+                    </label>
+                   <div class="col-md-12">
+                       <img src="@imgSrc" style="max-width: 100%; height: auto;" />
+                   </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <!-- Submit Button -->
+        <div class="form-group text-center mt-4">
+            <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+        </div>
+    </div>
+</EditForm>
+
+<div class="container text-center mt-3">
+    <a href="/index" class="btn btn-link">Back to List</a>
+</div>
+
+@code {
+    string imgSrc = "";
+    string Message = "";
+    byte[] _fileBytes = null;
+
+    [Inject] private IMediator Mediator { get; set; } = default!;
+    [Inject] private NavigationManager NavigationManager { get; set; } = default!;
+    [Inject] private AddPhoto _addPhoto { get; set; } = default!;
+
+    [SupplyParameterFromForm]
+    private BlogVm blog { get; set; } = new BlogVm
+        {
+            Name = string.Empty,
+            Description = string.Empty,
+            Author = string.Empty,
+            TextOfBlog = string.Empty,
+            ImageUrl = string.Empty,
+            ImageFile = null,
+            DateCreated = DateTime.Now,
+        };
+
+    private async Task HandleSubmit()
+    {
+        await Mediator.Send(new CreateBlogCommand
+            {
+                Name = blog.Name,
+                Description = blog.Description,
+                Author = blog.Author,
+                TextOfBlog = blog.TextOfBlog,
+                ImageUrl = imgSrc,
+                DateCreated = DateTime.Now,
+            });
+
+        NavigationManager.NavigateTo("/");
+    }
+
+    private async Task HandleFileSelected(InputFileChangeEventArgs e)
+    {
+        IBrowserFile file = e.File;
+
+        try
+        {
+            // Await the AddPhotoToEntityAsync method
+            string imageUrl = await _addPhoto.AddPhotoToEntityAsync(file);
+
+            // Set imgSrc if needed
+            imgSrc = imageUrl;
+        }
+        catch (Exception ex)
+        {
+            // Handle exceptions, e.g., log the error or show a message to the user
+            Console.WriteLine($"Error uploading file: {ex.Message}");
+        }
+    }
+}

@@ -1,0 +1,81 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\proiecte\\eBlog\\src\\eBlog.Blazor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\eBlog.Blazor.bundle.scp.css",
+      "PackagePath": "staticwebassets\\eBlog.Blazor.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\proiecte\\eBlog\\src\\eBlog.Blazor\\wwwroot\\Images\\17b61e4c-1564-4dd3-a231-e8fb575986f4.jpg",
+      "PackagePath": "staticwebassets\\Images\\17b61e4c-1564-4dd3-a231-e8fb575986f4.jpg"
+    },
+    {
+      "Id": "D:\\proiecte\\eBlog\\src\\eBlog.Blazor\\wwwroot\\Images\\3144d3d0-94d7-40be-8522-bbca672e448c.jpg",
+      "PackagePath": "staticwebassets\\Images\\3144d3d0-94d7-40be-8522-bbca672e448c.jpg"
+    },
+    {
+      "Id": "D:\\proiecte\\eBlog\\src\\eBlog.Blazor\\wwwroot\\Images\\44c4bed7-c0c6-499f-9bee-13b056b7aaa9.jpg",
+      "PackagePath": "staticwebassets\\Images\\44c4bed7-c0c6-499f-9bee-13b056b7aaa9.jpg"
+    },
+    {
+      "Id": "D:\\proiecte\\eBlog\\src\\eBlog.Blazor\\wwwroot\\Images\\5465f659-e07c-40c3-acb6-89bf78708f18.jpg",
+      "PackagePath": "staticwebassets\\Images\\5465f659-e07c-40c3-acb6-89bf78708f18.jpg"
+    },
+    {
+      "Id": "D:\\proiecte\\eBlog\\src\\eBlog.Blazor\\wwwroot\\Images\\8869b11c-9d72-4b61-9517-87328b08c712.jpg",
+      "PackagePath": "staticwebassets\\Images\\8869b11c-9d72-4b61-9517-87328b08c712.jpg"
+    },
+    {
+      "Id": "D:\\proiecte\\eBlog\\src\\eBlog.Blazor\\wwwroot\\Images\\8cdfb517-96c3-475c-ad36-c201aa3d27ac.jpg",
+      "PackagePath": "staticwebassets\\Images\\8cdfb517-96c3-475c-ad36-c201aa3d27ac.jpg"
+    },
+    {
+      "Id": "D:\\proiecte\\eBlog\\src\\eBlog.Blazor\\wwwroot\\Images\\93798849-a09b-4537-ba77-01bd031db6ed.jpg",
+      "PackagePath": "staticwebassets\\Images\\93798849-a09b-4537-ba77-01bd031db6ed.jpg"
+    },
+    {
+      "Id": "D:\\proiecte\\eBlog\\src\\eBlog.Blazor\\wwwroot\\Images\\99cbc47d-60b0-4155-a154-c63a76eaf838.jpg",
+      "PackagePath": "staticwebassets\\Images\\99cbc47d-60b0-4155-a154-c63a76eaf838.jpg"
+    },
+    {
+      "Id": "D:\\proiecte\\eBlog\\src\\eBlog.Blazor\\wwwroot\\Images\\a5d520e5-9468-44c3-a710-a5c55324b42d.jpg",
+      "PackagePath": "staticwebassets\\Images\\a5d520e5-9468-44c3-a710-a5c55324b42d.jpg"
+    },
+    {
+      "Id": "D:\\proiecte\\eBlog\\src\\eBlog.Blazor\\wwwroot\\Images\\e38fb782-d1c8-485d-9ea9-d0fe9514b8d4.jpg",
+      "PackagePath": "staticwebassets\\Images\\e38fb782-d1c8-485d-9ea9-d0fe9514b8d4.jpg"
+    },
+    {
+      "Id": "D:\\proiecte\\eBlog\\src\\eBlog.Blazor\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "D:\\proiecte\\eBlog\\src\\eBlog.Blazor\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\proiecte\\eBlog\\src\\eBlog.Blazor\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\proiecte\\eBlog\\src\\eBlog.Blazor\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.eBlog.Blazor.props",
+      "PackagePath": "build\\eBlog.Blazor.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.eBlog.Blazor.props",
+      "PackagePath": "buildMultiTargeting\\eBlog.Blazor.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.eBlog.Blazor.props",
+      "PackagePath": "buildTransitive\\eBlog.Blazor.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.eBlog.Blazor.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

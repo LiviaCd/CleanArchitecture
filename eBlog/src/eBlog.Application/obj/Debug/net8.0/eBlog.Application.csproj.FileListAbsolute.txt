@@ -1,0 +1,17 @@
+D:\proiecte\eBlog\src\eBlog.Application\bin\Debug\net8.0\eBlog.Application.deps.json
+D:\proiecte\eBlog\src\eBlog.Application\bin\Debug\net8.0\eBlog.Application.dll
+D:\proiecte\eBlog\src\eBlog.Application\bin\Debug\net8.0\eBlog.Application.pdb
+D:\proiecte\eBlog\src\eBlog.Application\bin\Debug\net8.0\eBlog.Domain.dll
+D:\proiecte\eBlog\src\eBlog.Application\bin\Debug\net8.0\eBlog.Domain.pdb
+D:\proiecte\eBlog\src\eBlog.Application\obj\Debug\net8.0\eBlog.Application.csproj.AssemblyReference.cache
+D:\proiecte\eBlog\src\eBlog.Application\obj\Debug\net8.0\eBlog.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\proiecte\eBlog\src\eBlog.Application\obj\Debug\net8.0\eBlog.Application.AssemblyInfoInputs.cache
+D:\proiecte\eBlog\src\eBlog.Application\obj\Debug\net8.0\eBlog.Application.AssemblyInfo.cs
+D:\proiecte\eBlog\src\eBlog.Application\obj\Debug\net8.0\eBlog.Application.csproj.CoreCompileInputs.cache
+D:\proiecte\eBlog\src\eBlog.Application\obj\Debug\net8.0\eBlog.Ap.FFC27079.Up2Date
+D:\proiecte\eBlog\src\eBlog.Application\obj\Debug\net8.0\eBlog.Application.dll
+D:\proiecte\eBlog\src\eBlog.Application\obj\Debug\net8.0\refint\eBlog.Application.dll
+D:\proiecte\eBlog\src\eBlog.Application\obj\Debug\net8.0\eBlog.Application.pdb
+D:\proiecte\eBlog\src\eBlog.Application\obj\Debug\net8.0\ref\eBlog.Application.dll
+D:\proiecte\eBlog\src\eBlog.Application\bin\Debug\net8.0\Shared.dll
+D:\proiecte\eBlog\src\eBlog.Application\bin\Debug\net8.0\Shared.pdb

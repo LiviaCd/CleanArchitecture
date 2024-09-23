@@ -1,0 +1,12 @@
+D:\proiecte\eBlog\src\Shared\bin\Debug\net8.0\Shared.deps.json
+D:\proiecte\eBlog\src\Shared\bin\Debug\net8.0\Shared.dll
+D:\proiecte\eBlog\src\Shared\bin\Debug\net8.0\Shared.pdb
+D:\proiecte\eBlog\src\Shared\obj\Debug\net8.0\Shared.csproj.AssemblyReference.cache
+D:\proiecte\eBlog\src\Shared\obj\Debug\net8.0\Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\proiecte\eBlog\src\Shared\obj\Debug\net8.0\Shared.AssemblyInfoInputs.cache
+D:\proiecte\eBlog\src\Shared\obj\Debug\net8.0\Shared.AssemblyInfo.cs
+D:\proiecte\eBlog\src\Shared\obj\Debug\net8.0\Shared.csproj.CoreCompileInputs.cache
+D:\proiecte\eBlog\src\Shared\obj\Debug\net8.0\Shared.dll
+D:\proiecte\eBlog\src\Shared\obj\Debug\net8.0\refint\Shared.dll
+D:\proiecte\eBlog\src\Shared\obj\Debug\net8.0\Shared.pdb
+D:\proiecte\eBlog\src\Shared\obj\Debug\net8.0\ref\Shared.dll

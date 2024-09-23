@@ -1,0 +1,80 @@
+﻿@page "/edit/{id:int}"
+@using MediatR
+@using Microsoft.AspNetCore.Mvc
+@using eBlog.Application.Blogs.Queries.GetBlogById
+@using eBlog.Application.Blogs.Commands.UpdateBlog
+@using eBlog.Application.DTOs
+@rendermode InteractiveServer
+
+<div class="container-fluid p-0">
+    <div class="background-container" style="background-image: url('@Blog.ImageUrl'); background-size: cover; background-position: center; background-repeat: no-repeat; height: 50vh;">
+        <div class="d-flex flex-column align-items-center text-center justify-content-center" style="height: 100%; color: white; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">
+            <h3 class="mb-3 font-weight-bold" style="font-size: 3rem; text-transform: uppercase;">Edit Blog</h3>
+        </div>
+    </div>
+    <div class="container mt-4">
+        <EditForm Model="@Blog" FormName ="editBlog" OnValidSubmit="HandleValidSubmit">
+            <DataAnnotationsValidator />
+            <ValidationSummary />
+
+            <div class="form-group mb-3">
+                <label for="name" class="font-weight-bold">Name</label>
+                <InputText id="name" class="form-control" @bind-Value="Blog.Name" />
+                <ValidationMessage For="@(() => Blog.Name)" />
+            </div>
+
+            <div class="form-group mb-3">
+                <label for="description" class="font-weight-bold">Description</label>
+                <InputText id="description" class="form-control" @bind-Value="Blog.Description" />
+                <ValidationMessage For="@(() => Blog.Description)" />
+            </div>
+
+            <div class="form-group mb-3">
+                <label for="textOfBlog" class="font-weight-bold">Text</label>
+                <InputTextArea id="textOfBlog" class="form-control" @bind-Value="Blog.TextOfBlog" rows="5" />
+                <ValidationMessage For="@(() => Blog.TextOfBlog)" />
+            </div>
+
+            <div class="form-group mb-3">
+                <label for="author" class="font-weight-bold">Author</label>
+                <InputText id="author" class="form-control" @bind-Value="Blog.Author" />
+                <ValidationMessage For="@(() => Blog.Author)" />
+            </div>
+
+            <div class="form-group mt-3">
+                <button type="submit" class="btn btn-primary">Save</button>
+                <a class="btn btn-secondary ml-2" href="/">Back to List</a>
+            </div>
+        </EditForm>
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+    [Inject] private ISender Mediator { get; set; } = default!;
+    [Inject] private NavigationManager NavigationManager { get; set; } = default!;
+    [BindProperty]
+    public BlogVm Blog { get; set; } = new BlogVm();
+
+    protected override async Task OnInitializedAsync()
+    {
+        Blog = await Mediator.Send(new GetBlogByIdQuery() { BlogId = Id });
+
+        if (Blog == null)
+        {
+            // Handle null case, e.g., redirect or show error message
+        }
+    }
+
+    private async Task HandleValidSubmit()
+    {
+        var command = new UpdateBlogCommand(Blog);
+
+        await Mediator.Send(command);
+
+        NavigationManager.NavigateTo($"/details/{Blog.Id}");
+    }
+
+
+}

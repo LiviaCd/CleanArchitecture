@@ -1,0 +1,1 @@
+D:\proiecte\eBlog\src\eBlog.MAUI2\eBlog.MAUI2.csproj;x64

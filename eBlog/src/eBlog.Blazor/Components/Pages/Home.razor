@@ -1,0 +1,46 @@
+﻿@page "/"
+@using MediatR
+@using eBlog.Application.Blogs.Queries.GetBlogs
+@using eBlog.Application.DTOs
+<PageTitle>Home</PageTitle>
+
+<h1>Blog List</h1>
+
+<p>
+    <a class="btn btn-primary fw-bold" href="/create">Create New</a>
+</p>
+<div class="row">
+    @foreach (var item in Blogs)
+    {
+        <div class="col-md-4 mb-4 d-flex">
+            <div class="card d-flex flex-column w-100">
+                @if (!string.IsNullOrEmpty(item.ImageUrl))
+                {
+                    <img class="card-img-top" src="@item.ImageUrl" alt="Blog Image" style="height: 200px; object-fit: cover;" />
+                }
+                <div class="card-body flex-grow-1">
+                    <h5 class="card-title">@item.Name</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">@item.Author</h6>
+                    <p class="card-text">@item.Description</p>
+                </div>
+                <div class="card-footer text-center">
+                    <a class="btn btn-warning fw-bold m-1" href="/edit/@item.Id">Edit</a>
+                    <a class="btn btn-success fw-bold m-1" href="/details/@item.Id">Details</a>
+                    <a class="btn btn-danger fw-bold m-1" href="/delete/@item.Id">Delete</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+@code {
+    public List<BlogVm> Blogs { get; set; } = new List<BlogVm>();
+
+    [Inject]
+    private ISender _mediator { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        Blogs = (await _mediator.Send(new GetBlogQuery())).ToList();
+    }
+}

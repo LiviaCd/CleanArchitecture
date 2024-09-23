@@ -1,0 +1,15 @@
+D:\proiecte\eBlog\src\eBlog.Domain\bin\Debug\net8.0\eBlog.Domain.deps.json
+D:\proiecte\eBlog\src\eBlog.Domain\bin\Debug\net8.0\eBlog.Domain.dll
+D:\proiecte\eBlog\src\eBlog.Domain\bin\Debug\net8.0\eBlog.Domain.pdb
+D:\proiecte\eBlog\src\eBlog.Domain\obj\Debug\net8.0\eBlog.Domain.csproj.AssemblyReference.cache
+D:\proiecte\eBlog\src\eBlog.Domain\obj\Debug\net8.0\eBlog.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\proiecte\eBlog\src\eBlog.Domain\obj\Debug\net8.0\eBlog.Domain.AssemblyInfoInputs.cache
+D:\proiecte\eBlog\src\eBlog.Domain\obj\Debug\net8.0\eBlog.Domain.AssemblyInfo.cs
+D:\proiecte\eBlog\src\eBlog.Domain\obj\Debug\net8.0\eBlog.Domain.csproj.CoreCompileInputs.cache
+D:\proiecte\eBlog\src\eBlog.Domain\obj\Debug\net8.0\eBlog.Domain.dll
+D:\proiecte\eBlog\src\eBlog.Domain\obj\Debug\net8.0\refint\eBlog.Domain.dll
+D:\proiecte\eBlog\src\eBlog.Domain\obj\Debug\net8.0\eBlog.Domain.pdb
+D:\proiecte\eBlog\src\eBlog.Domain\obj\Debug\net8.0\ref\eBlog.Domain.dll
+D:\proiecte\eBlog\src\eBlog.Domain\bin\Debug\net8.0\Shared.dll
+D:\proiecte\eBlog\src\eBlog.Domain\bin\Debug\net8.0\Shared.pdb
+D:\proiecte\eBlog\src\eBlog.Domain\obj\Debug\net8.0\eBlog.Do.3F80516C.Up2Date
