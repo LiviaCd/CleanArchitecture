@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\proiecte\\eBlog\\src\\eBlog.Infrastructure\\eBlog.Infrastructure.csproj": {}
+    "D:\\proiecte\\CleanArchitecture\\eBlog\\src\\eBlog.Infrastructure\\eBlog.Infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\proiecte\\eBlog\\src\\eBlog.Application\\eBlog.Application.csproj": {
+    "D:\\proiecte\\CleanArchitecture\\eBlog\\src\\eBlog.Application\\eBlog.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\proiecte\\eBlog\\src\\eBlog.Application\\eBlog.Application.csproj",
+        "projectUniqueName": "D:\\proiecte\\CleanArchitecture\\eBlog\\src\\eBlog.Application\\eBlog.Application.csproj",
         "projectName": "eBlog.Application",
-        "projectPath": "D:\\proiecte\\eBlog\\src\\eBlog.Application\\eBlog.Application.csproj",
+        "projectPath": "D:\\proiecte\\CleanArchitecture\\eBlog\\src\\eBlog.Application\\eBlog.Application.csproj",
         "packagesPath": "C:\\Users\\Livia\\.nuget\\packages\\",
-        "outputPath": "D:\\proiecte\\eBlog\\src\\eBlog.Application\\obj\\",
+        "outputPath": "D:\\proiecte\\CleanArchitecture\\eBlog\\src\\eBlog.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,11 +33,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\proiecte\\eBlog\\src\\eBlog.Domain\\eBlog.Domain.csproj": {
-                "projectPath": "D:\\proiecte\\eBlog\\src\\eBlog.Domain\\eBlog.Domain.csproj"
+              "D:\\proiecte\\CleanArchitecture\\eBlog\\src\\eBlog.Domain\\eBlog.Domain.csproj": {
+                "projectPath": "D:\\proiecte\\CleanArchitecture\\eBlog\\src\\eBlog.Domain\\eBlog.Domain.csproj"
               },
-              "D:\\proiecte\\eBlog\\src\\Shared\\Shared.csproj": {
-                "projectPath": "D:\\proiecte\\eBlog\\src\\Shared\\Shared.csproj"
+              "D:\\proiecte\\CleanArchitecture\\eBlog\\src\\Shared\\Shared.csproj": {
+                "projectPath": "D:\\proiecte\\CleanArchitecture\\eBlog\\src\\Shared\\Shared.csproj"
               }
             }
           }
@@ -98,14 +98,14 @@
         }
       }
     },
-    "D:\\proiecte\\eBlog\\src\\eBlog.Domain\\eBlog.Domain.csproj": {
+    "D:\\proiecte\\CleanArchitecture\\eBlog\\src\\eBlog.Domain\\eBlog.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\proiecte\\eBlog\\src\\eBlog.Domain\\eBlog.Domain.csproj",
+        "projectUniqueName": "D:\\proiecte\\CleanArchitecture\\eBlog\\src\\eBlog.Domain\\eBlog.Domain.csproj",
         "projectName": "eBlog.Domain",
-        "projectPath": "D:\\proiecte\\eBlog\\src\\eBlog.Domain\\eBlog.Domain.csproj",
+        "projectPath": "D:\\proiecte\\CleanArchitecture\\eBlog\\src\\eBlog.Domain\\eBlog.Domain.csproj",
         "packagesPath": "C:\\Users\\Livia\\.nuget\\packages\\",
-        "outputPath": "D:\\proiecte\\eBlog\\src\\eBlog.Domain\\obj\\",
+        "outputPath": "D:\\proiecte\\CleanArchitecture\\eBlog\\src\\eBlog.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -127,8 +127,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\proiecte\\eBlog\\src\\Shared\\Shared.csproj": {
-                "projectPath": "D:\\proiecte\\eBlog\\src\\Shared\\Shared.csproj"
+              "D:\\proiecte\\CleanArchitecture\\eBlog\\src\\Shared\\Shared.csproj": {
+                "projectPath": "D:\\proiecte\\CleanArchitecture\\eBlog\\src\\Shared\\Shared.csproj"
               }
             }
           }
@@ -177,14 +177,14 @@
         }
       }
     },
-    "D:\\proiecte\\eBlog\\src\\eBlog.Infrastructure\\eBlog.Infrastructure.csproj": {
+    "D:\\proiecte\\CleanArchitecture\\eBlog\\src\\eBlog.Infrastructure\\eBlog.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\proiecte\\eBlog\\src\\eBlog.Infrastructure\\eBlog.Infrastructure.csproj",
+        "projectUniqueName": "D:\\proiecte\\CleanArchitecture\\eBlog\\src\\eBlog.Infrastructure\\eBlog.Infrastructure.csproj",
         "projectName": "eBlog.Infrastructure",
-        "projectPath": "D:\\proiecte\\eBlog\\src\\eBlog.Infrastructure\\eBlog.Infrastructure.csproj",
+        "projectPath": "D:\\proiecte\\CleanArchitecture\\eBlog\\src\\eBlog.Infrastructure\\eBlog.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Livia\\.nuget\\packages\\",
-        "outputPath": "D:\\proiecte\\eBlog\\src\\eBlog.Infrastructure\\obj\\",
+        "outputPath": "D:\\proiecte\\CleanArchitecture\\eBlog\\src\\eBlog.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -206,8 +206,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\proiecte\\eBlog\\src\\eBlog.Application\\eBlog.Application.csproj": {
-                "projectPath": "D:\\proiecte\\eBlog\\src\\eBlog.Application\\eBlog.Application.csproj"
+              "D:\\proiecte\\CleanArchitecture\\eBlog\\src\\eBlog.Application\\eBlog.Application.csproj": {
+                "projectPath": "D:\\proiecte\\CleanArchitecture\\eBlog\\src\\eBlog.Application\\eBlog.Application.csproj"
               }
             }
           }
@@ -287,14 +287,14 @@
         }
       }
     },
-    "D:\\proiecte\\eBlog\\src\\Shared\\Shared.csproj": {
+    "D:\\proiecte\\CleanArchitecture\\eBlog\\src\\Shared\\Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\proiecte\\eBlog\\src\\Shared\\Shared.csproj",
+        "projectUniqueName": "D:\\proiecte\\CleanArchitecture\\eBlog\\src\\Shared\\Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "D:\\proiecte\\eBlog\\src\\Shared\\Shared.csproj",
+        "projectPath": "D:\\proiecte\\CleanArchitecture\\eBlog\\src\\Shared\\Shared.csproj",
         "packagesPath": "C:\\Users\\Livia\\.nuget\\packages\\",
-        "outputPath": "D:\\proiecte\\eBlog\\src\\Shared\\obj\\",
+        "outputPath": "D:\\proiecte\\CleanArchitecture\\eBlog\\src\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

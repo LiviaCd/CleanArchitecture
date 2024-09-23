@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EFI+iYEX5xY=",
+  "dgSpecHash": "+Ac3UCQ194g=",
   "success": true,
-  "projectFilePath": "D:\\proiecte\\eBlog\\src\\eBlog.Application\\eBlog.Application.csproj",
+  "projectFilePath": "D:\\proiecte\\CleanArchitecture\\eBlog\\src\\eBlog.Application\\eBlog.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Livia\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\Livia\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
@@ -155,12 +155,6 @@
     "C:\\Users\\Livia\\.nuget\\packages\\unity\\2.1.505.2\\unity.2.1.505.2.nupkg.sha512"
   ],
   "logs": [
-    {
-      "code": "NU1900",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json."
-    },
     {
       "code": "NU1701",
       "level": "Warning",

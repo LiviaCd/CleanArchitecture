@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Nu+uswrvTKs=",
+  "dgSpecHash": "6De+17xRvrc=",
   "success": true,
-  "projectFilePath": "D:\\proiecte\\eBlog\\src\\eBlog.Blazor\\eBlog.Blazor.csproj",
+  "projectFilePath": "D:\\proiecte\\CleanArchitecture\\eBlog\\src\\eBlog.Blazor\\eBlog.Blazor.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Livia\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\Livia\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

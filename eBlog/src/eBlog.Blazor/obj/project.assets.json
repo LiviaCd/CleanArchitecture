@@ -11158,11 +11158,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\proiecte\\eBlog\\src\\eBlog.Blazor\\eBlog.Blazor.csproj",
+      "projectUniqueName": "D:\\proiecte\\CleanArchitecture\\eBlog\\src\\eBlog.Blazor\\eBlog.Blazor.csproj",
       "projectName": "eBlog.Blazor",
-      "projectPath": "D:\\proiecte\\eBlog\\src\\eBlog.Blazor\\eBlog.Blazor.csproj",
+      "projectPath": "D:\\proiecte\\CleanArchitecture\\eBlog\\src\\eBlog.Blazor\\eBlog.Blazor.csproj",
       "packagesPath": "C:\\Users\\Livia\\.nuget\\packages\\",
-      "outputPath": "D:\\proiecte\\eBlog\\src\\eBlog.Blazor\\obj\\",
+      "outputPath": "D:\\proiecte\\CleanArchitecture\\eBlog\\src\\eBlog.Blazor\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -11184,11 +11184,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\proiecte\\eBlog\\src\\eBlog.Application\\eBlog.Application.csproj": {
-              "projectPath": "D:\\proiecte\\eBlog\\src\\eBlog.Application\\eBlog.Application.csproj"
+            "D:\\proiecte\\CleanArchitecture\\eBlog\\src\\eBlog.Application\\eBlog.Application.csproj": {
+              "projectPath": "D:\\proiecte\\CleanArchitecture\\eBlog\\src\\eBlog.Application\\eBlog.Application.csproj"
             },
-            "D:\\proiecte\\eBlog\\src\\eBlog.Infrastructure\\eBlog.Infrastructure.csproj": {
-              "projectPath": "D:\\proiecte\\eBlog\\src\\eBlog.Infrastructure\\eBlog.Infrastructure.csproj"
+            "D:\\proiecte\\CleanArchitecture\\eBlog\\src\\eBlog.Infrastructure\\eBlog.Infrastructure.csproj": {
+              "projectPath": "D:\\proiecte\\CleanArchitecture\\eBlog\\src\\eBlog.Infrastructure\\eBlog.Infrastructure.csproj"
             }
           }
         }

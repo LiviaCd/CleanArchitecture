@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HXaR9YBEnEo=",
+  "dgSpecHash": "m+Ja2JhPsyg=",
   "success": true,
-  "projectFilePath": "D:\\proiecte\\eBlog\\src\\eBlog.Domain\\eBlog.Domain.csproj",
+  "projectFilePath": "D:\\proiecte\\CleanArchitecture\\eBlog\\src\\eBlog.Domain\\eBlog.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Livia\\.nuget\\packages\\commonservicelocator\\1.0.0\\commonservicelocator.1.0.0.nupkg.sha512",
     "C:\\Users\\Livia\\.nuget\\packages\\entityframework\\5.0.0\\entityframework.5.0.0.nupkg.sha512",
@@ -45,12 +45,6 @@
     "C:\\Users\\Livia\\.nuget\\packages\\unity\\2.1.505.2\\unity.2.1.505.2.nupkg.sha512"
   ],
   "logs": [
-    {
-      "code": "NU1900",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json."
-    },
     {
       "code": "NU1701",
       "level": "Warning",

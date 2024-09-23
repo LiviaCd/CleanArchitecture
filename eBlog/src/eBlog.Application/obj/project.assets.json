@@ -7569,11 +7569,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\proiecte\\eBlog\\src\\eBlog.Application\\eBlog.Application.csproj",
+      "projectUniqueName": "D:\\proiecte\\CleanArchitecture\\eBlog\\src\\eBlog.Application\\eBlog.Application.csproj",
       "projectName": "eBlog.Application",
-      "projectPath": "D:\\proiecte\\eBlog\\src\\eBlog.Application\\eBlog.Application.csproj",
+      "projectPath": "D:\\proiecte\\CleanArchitecture\\eBlog\\src\\eBlog.Application\\eBlog.Application.csproj",
       "packagesPath": "C:\\Users\\Livia\\.nuget\\packages\\",
-      "outputPath": "D:\\proiecte\\eBlog\\src\\eBlog.Application\\obj\\",
+      "outputPath": "D:\\proiecte\\CleanArchitecture\\eBlog\\src\\eBlog.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -7595,11 +7595,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\proiecte\\eBlog\\src\\eBlog.Domain\\eBlog.Domain.csproj": {
-              "projectPath": "D:\\proiecte\\eBlog\\src\\eBlog.Domain\\eBlog.Domain.csproj"
+            "D:\\proiecte\\CleanArchitecture\\eBlog\\src\\eBlog.Domain\\eBlog.Domain.csproj": {
+              "projectPath": "D:\\proiecte\\CleanArchitecture\\eBlog\\src\\eBlog.Domain\\eBlog.Domain.csproj"
             },
-            "D:\\proiecte\\eBlog\\src\\Shared\\Shared.csproj": {
-              "projectPath": "D:\\proiecte\\eBlog\\src\\Shared\\Shared.csproj"
+            "D:\\proiecte\\CleanArchitecture\\eBlog\\src\\Shared\\Shared.csproj": {
+              "projectPath": "D:\\proiecte\\CleanArchitecture\\eBlog\\src\\Shared\\Shared.csproj"
             }
           }
         }
@@ -7661,12 +7661,6 @@
     }
   },
   "logs": [
-    {
-      "code": "NU1900",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json."
-    },
     {
       "code": "NU1701",
       "level": "Warning",

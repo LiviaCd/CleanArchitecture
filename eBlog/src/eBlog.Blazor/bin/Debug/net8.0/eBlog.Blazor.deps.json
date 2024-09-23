@@ -14,6 +14,7 @@
           "Microsoft.EntityFrameworkCore.Design": "8.0.7",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.7",
           "Microsoft.EntityFrameworkCore.Tools": "8.0.7",
+          "bootstrap": "5.3.3",
           "eBlog.Application": "1.0.0",
           "eBlog.Infrastructure": "1.0.0"
         },
@@ -90,6 +91,7 @@
           }
         }
       },
+      "bootstrap/5.3.3": {},
       "CommonServiceLocator/1.0.0": {
         "runtime": {
           "lib/NET35/Microsoft.Practices.ServiceLocation.dll": {
@@ -2174,6 +2176,13 @@
       "sha512": "sha512-wsPTwoA9fkHOxjEh0W0brNeTaVBaMCFwfBLehbRhfW+RzlIrYtlJ5qFpT5f377Ej6ELk+xeoUrkDBx9c8JF7DQ==",
       "path": "blazorinputfile/0.2.0",
       "hashPath": "blazorinputfile.0.2.0.nupkg.sha512"
+    },
+    "bootstrap/5.3.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iQohLXwneNPDyW4x24mKQ90qGwT5WTtNl3KybL0koTluJPjKYxFCU/NTLHsJiWR2n7VmnwcpAgr8TR42KNmPOg==",
+      "path": "bootstrap/5.3.3",
+      "hashPath": "bootstrap.5.3.3.nupkg.sha512"
     },
     "CommonServiceLocator/1.0.0": {
       "type": "package",

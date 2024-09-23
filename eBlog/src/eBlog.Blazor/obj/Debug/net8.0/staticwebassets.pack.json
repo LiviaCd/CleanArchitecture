@@ -1,63 +1,239 @@
 {
   "Files": [
     {
-      "Id": "D:\\proiecte\\eBlog\\src\\eBlog.Blazor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\eBlog.Blazor.bundle.scp.css",
+      "Id": "C:\\Users\\Livia\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Livia\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Livia\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Livia\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Livia\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Livia\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Livia\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Livia\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Livia\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Livia\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Livia\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Livia\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Livia\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Livia\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Livia\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Livia\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Livia\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Livia\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Livia\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Livia\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Livia\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Livia\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Livia\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Livia\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Livia\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Livia\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Livia\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Livia\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Livia\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Livia\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Livia\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Livia\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Livia\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Livia\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Livia\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Livia\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Livia\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Livia\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Livia\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Livia\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Livia\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Livia\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Livia\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Livia\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\proiecte\\CleanArchitecture\\eBlog\\src\\eBlog.Blazor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\eBlog.Blazor.bundle.scp.css",
       "PackagePath": "staticwebassets\\eBlog.Blazor.bundle.scp.css"
     },
     {
-      "Id": "D:\\proiecte\\eBlog\\src\\eBlog.Blazor\\wwwroot\\Images\\17b61e4c-1564-4dd3-a231-e8fb575986f4.jpg",
+      "Id": "D:\\proiecte\\CleanArchitecture\\eBlog\\src\\eBlog.Blazor\\wwwroot\\Images\\17b61e4c-1564-4dd3-a231-e8fb575986f4.jpg",
       "PackagePath": "staticwebassets\\Images\\17b61e4c-1564-4dd3-a231-e8fb575986f4.jpg"
     },
     {
-      "Id": "D:\\proiecte\\eBlog\\src\\eBlog.Blazor\\wwwroot\\Images\\3144d3d0-94d7-40be-8522-bbca672e448c.jpg",
+      "Id": "D:\\proiecte\\CleanArchitecture\\eBlog\\src\\eBlog.Blazor\\wwwroot\\Images\\3144d3d0-94d7-40be-8522-bbca672e448c.jpg",
       "PackagePath": "staticwebassets\\Images\\3144d3d0-94d7-40be-8522-bbca672e448c.jpg"
     },
     {
-      "Id": "D:\\proiecte\\eBlog\\src\\eBlog.Blazor\\wwwroot\\Images\\44c4bed7-c0c6-499f-9bee-13b056b7aaa9.jpg",
+      "Id": "D:\\proiecte\\CleanArchitecture\\eBlog\\src\\eBlog.Blazor\\wwwroot\\Images\\44c4bed7-c0c6-499f-9bee-13b056b7aaa9.jpg",
       "PackagePath": "staticwebassets\\Images\\44c4bed7-c0c6-499f-9bee-13b056b7aaa9.jpg"
     },
     {
-      "Id": "D:\\proiecte\\eBlog\\src\\eBlog.Blazor\\wwwroot\\Images\\5465f659-e07c-40c3-acb6-89bf78708f18.jpg",
+      "Id": "D:\\proiecte\\CleanArchitecture\\eBlog\\src\\eBlog.Blazor\\wwwroot\\Images\\5465f659-e07c-40c3-acb6-89bf78708f18.jpg",
       "PackagePath": "staticwebassets\\Images\\5465f659-e07c-40c3-acb6-89bf78708f18.jpg"
     },
     {
-      "Id": "D:\\proiecte\\eBlog\\src\\eBlog.Blazor\\wwwroot\\Images\\8869b11c-9d72-4b61-9517-87328b08c712.jpg",
+      "Id": "D:\\proiecte\\CleanArchitecture\\eBlog\\src\\eBlog.Blazor\\wwwroot\\Images\\8869b11c-9d72-4b61-9517-87328b08c712.jpg",
       "PackagePath": "staticwebassets\\Images\\8869b11c-9d72-4b61-9517-87328b08c712.jpg"
     },
     {
-      "Id": "D:\\proiecte\\eBlog\\src\\eBlog.Blazor\\wwwroot\\Images\\8cdfb517-96c3-475c-ad36-c201aa3d27ac.jpg",
+      "Id": "D:\\proiecte\\CleanArchitecture\\eBlog\\src\\eBlog.Blazor\\wwwroot\\Images\\8cdfb517-96c3-475c-ad36-c201aa3d27ac.jpg",
       "PackagePath": "staticwebassets\\Images\\8cdfb517-96c3-475c-ad36-c201aa3d27ac.jpg"
     },
     {
-      "Id": "D:\\proiecte\\eBlog\\src\\eBlog.Blazor\\wwwroot\\Images\\93798849-a09b-4537-ba77-01bd031db6ed.jpg",
+      "Id": "D:\\proiecte\\CleanArchitecture\\eBlog\\src\\eBlog.Blazor\\wwwroot\\Images\\93798849-a09b-4537-ba77-01bd031db6ed.jpg",
       "PackagePath": "staticwebassets\\Images\\93798849-a09b-4537-ba77-01bd031db6ed.jpg"
     },
     {
-      "Id": "D:\\proiecte\\eBlog\\src\\eBlog.Blazor\\wwwroot\\Images\\99cbc47d-60b0-4155-a154-c63a76eaf838.jpg",
+      "Id": "D:\\proiecte\\CleanArchitecture\\eBlog\\src\\eBlog.Blazor\\wwwroot\\Images\\99cbc47d-60b0-4155-a154-c63a76eaf838.jpg",
       "PackagePath": "staticwebassets\\Images\\99cbc47d-60b0-4155-a154-c63a76eaf838.jpg"
     },
     {
-      "Id": "D:\\proiecte\\eBlog\\src\\eBlog.Blazor\\wwwroot\\Images\\a5d520e5-9468-44c3-a710-a5c55324b42d.jpg",
+      "Id": "D:\\proiecte\\CleanArchitecture\\eBlog\\src\\eBlog.Blazor\\wwwroot\\Images\\a5d520e5-9468-44c3-a710-a5c55324b42d.jpg",
       "PackagePath": "staticwebassets\\Images\\a5d520e5-9468-44c3-a710-a5c55324b42d.jpg"
     },
     {
-      "Id": "D:\\proiecte\\eBlog\\src\\eBlog.Blazor\\wwwroot\\Images\\e38fb782-d1c8-485d-9ea9-d0fe9514b8d4.jpg",
+      "Id": "D:\\proiecte\\CleanArchitecture\\eBlog\\src\\eBlog.Blazor\\wwwroot\\Images\\e38fb782-d1c8-485d-9ea9-d0fe9514b8d4.jpg",
       "PackagePath": "staticwebassets\\Images\\e38fb782-d1c8-485d-9ea9-d0fe9514b8d4.jpg"
     },
     {
-      "Id": "D:\\proiecte\\eBlog\\src\\eBlog.Blazor\\wwwroot\\app.css",
+      "Id": "D:\\proiecte\\CleanArchitecture\\eBlog\\src\\eBlog.Blazor\\wwwroot\\app.css",
       "PackagePath": "staticwebassets\\app.css"
     },
     {
-      "Id": "D:\\proiecte\\eBlog\\src\\eBlog.Blazor\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Id": "D:\\proiecte\\CleanArchitecture\\eBlog\\src\\eBlog.Blazor\\wwwroot\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\proiecte\\eBlog\\src\\eBlog.Blazor\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Id": "D:\\proiecte\\CleanArchitecture\\eBlog\\src\\eBlog.Blazor\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\proiecte\\eBlog\\src\\eBlog.Blazor\\wwwroot\\favicon.png",
+      "Id": "D:\\proiecte\\CleanArchitecture\\eBlog\\src\\eBlog.Blazor\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {

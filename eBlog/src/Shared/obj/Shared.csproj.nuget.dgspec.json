@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\proiecte\\eBlog\\src\\Shared\\Shared.csproj": {}
+    "D:\\proiecte\\CleanArchitecture\\eBlog\\src\\Shared\\Shared.csproj": {}
   },
   "projects": {
-    "D:\\proiecte\\eBlog\\src\\Shared\\Shared.csproj": {
+    "D:\\proiecte\\CleanArchitecture\\eBlog\\src\\Shared\\Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\proiecte\\eBlog\\src\\Shared\\Shared.csproj",
+        "projectUniqueName": "D:\\proiecte\\CleanArchitecture\\eBlog\\src\\Shared\\Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "D:\\proiecte\\eBlog\\src\\Shared\\Shared.csproj",
+        "projectPath": "D:\\proiecte\\CleanArchitecture\\eBlog\\src\\Shared\\Shared.csproj",
         "packagesPath": "C:\\Users\\Livia\\.nuget\\packages\\",
-        "outputPath": "D:\\proiecte\\eBlog\\src\\Shared\\obj\\",
+        "outputPath": "D:\\proiecte\\CleanArchitecture\\eBlog\\src\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
