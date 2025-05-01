@@ -11,17 +11,17 @@ namespace eBlog.Application.Blogs.Commands.UpdateBlog
     {
         public UpdateBlogCommandValidator() 
         {
-            RuleFor(v => v.Item.Name)
+            RuleFor(v => v.Name)
                .NotEmpty().WithMessage("Name is required")
                .MaximumLength(200).WithMessage("Name must not exceed 200 characters");
-            RuleFor(v => v.Item.Description)
+            RuleFor(v => v.Description)
                 .NotEmpty().WithMessage("Description is required");
-            RuleFor(v => v.Item.Author)
+            RuleFor(v => v.Author)
                 .NotEmpty().WithMessage("Author is required")
                 .MaximumLength(50).WithMessage("Name must not exceed 50 characters");
-            RuleFor(v => v.Item.TextOfBlog)
+            RuleFor(v => v.TextOfBlog)
                 .NotEmpty().WithMessage("Text is required");
-            RuleFor(v => v.Item.DateCreated)
+            RuleFor(v => v.DateCreated)
                 .Must(date => date != default(DateTime))
                 .WithMessage("DateCreated must be a valid date.");
         }

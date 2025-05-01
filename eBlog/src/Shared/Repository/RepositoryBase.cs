@@ -22,6 +22,10 @@ namespace Shared.Repository
         public virtual async Task Delete(int id)
         {
             var entity = await DbContext.Set<T>().FindAsync(id);
+            if (entity == null)
+            {
+                throw new InvalidOperationException("Entity not found");
+            }
             DbContext.Set<T>().Remove(entity);
 
         }
@@ -33,7 +37,7 @@ namespace Shared.Repository
 
         public virtual async Task<T> GetById(int id)
         {
-            return await DbContext.Set<T>().AsNoTracking()
+            return await DbContext.Set<T>()
                 .FirstOrDefaultAsync(model => model.Id == id);
         }
 

@@ -18,10 +18,24 @@ namespace eBlog.Application.Blogs.Commands.UpdateBlog
     {
         public async Task<int> Handle(UpdateBlogCommand request, CancellationToken cancellationToken)
         {
-            var blogToUpdate = _mapper.Map<Blog>(request.Item);
-            await _blogRepository.Update(blogToUpdate);
+            var existingBlog = await _blogRepository.GetById(request.Id);
+            if (existingBlog == null)
+            {
+                throw new InvalidOperationException($"Blog with ID {request.Id} not found.");
+            }
+
+            existingBlog.Name = request.Name;
+            existingBlog.Author = request.Author;
+            existingBlog.Description = request.Description;
+            existingBlog.ImageUrl = request.ImageUrl;
+            existingBlog.TextOfBlog = request.TextOfBlog;
+            existingBlog.DateCreated = request.DateCreated;
+
+            await _blogRepository.Update(existingBlog);
             await _unitOfWork.SaveChangesAsync(cancellationToken);
-            return blogToUpdate.Id;
+
+            return existingBlog.Id;
         }
+
     }
 }

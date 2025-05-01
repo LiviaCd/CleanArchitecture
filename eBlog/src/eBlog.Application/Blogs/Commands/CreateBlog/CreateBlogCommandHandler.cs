@@ -46,8 +46,7 @@ namespace eBlog.Application.Blogs.Commands.CreateBlog
                 DateCreated = request.DateCreated,
                 ImageFile = request.ImageFile
             };
-            //blogVm.ImageFile = this.GetImage(Convert.ToBase64String(blogVm.ImageFile));
-            //blogVm.ImageUrl = string.Format("data:image/jpg;base64." + Convert.ToBase64String(blogVm.ImageFile));
+           
             var blogEntity = _mapper.Map<Blog>(blogVm);
 
             if (blogVm.ImageFile != null)
@@ -60,16 +59,6 @@ namespace eBlog.Application.Blogs.Commands.CreateBlog
 
             return _mapper.Map<BlogVm>(resultBlog);
         }
-        /*
-        public byte[] GetImage(string sBase64String)
-        {
-            byte[] bytes = null;
-            if (!string.IsNullOrEmpty(sBase64String))
-            {
-                bytes = Convert.FromBase64String(sBase64String);
-            }
-            return bytes;
-        }
-        */
+       
     }
 }

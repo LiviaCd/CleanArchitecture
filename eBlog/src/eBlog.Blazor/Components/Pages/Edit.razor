@@ -16,6 +16,8 @@
         <EditForm Model="@Blog" FormName ="editBlog" OnValidSubmit="HandleValidSubmit">
             <DataAnnotationsValidator />
             <ValidationSummary />
+            <input type="hidden" @bind-value="Blog.Id" />
+
 
             <div class="form-group mb-3">
                 <label for="name" class="font-weight-bold">Name</label>
@@ -69,12 +71,21 @@
 
     private async Task HandleValidSubmit()
     {
-        var command = new UpdateBlogCommand(Blog);
+        await Mediator.Send(new UpdateBlogCommand
+            {
+                Id = Blog.Id,
+                Name = Blog.Name,
+                Description = Blog.Description,
+                Author = Blog.Author,
+                TextOfBlog = Blog.TextOfBlog,
+                ImageUrl = Blog.ImageUrl,
+                DateCreated = DateTime.Now,
+            });
 
-        await Mediator.Send(command);
-
-        NavigationManager.NavigateTo($"/details/{Blog.Id}");
+        // Force reload to fetch updated details
+        NavigationManager.NavigateTo($"/details/{Blog.Id}", true);  // Pass true to force reload the page
     }
+
 
 
 }

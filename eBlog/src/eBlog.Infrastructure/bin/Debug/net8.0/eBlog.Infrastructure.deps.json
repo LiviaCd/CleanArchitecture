@@ -2051,7 +2051,10 @@
           "eBlog.Domain": "1.0.0"
         },
         "runtime": {
-          "eBlog.Application.dll": {}
+          "eBlog.Application.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "eBlog.Domain/1.0.0": {
@@ -2061,7 +2064,10 @@
           "Shared": "1.0.0"
         },
         "runtime": {
-          "eBlog.Domain.dll": {}
+          "eBlog.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Shared/1.0.0": {
@@ -2072,7 +2078,10 @@
           "UnitOfWork": "0.24.0"
         },
         "runtime": {
-          "Shared.dll": {}
+          "Shared.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

@@ -50,8 +50,6 @@ namespace eBlog.WebAPI.Controllers
         [HttpPut("blog/update/{id}")]
         public async Task<IActionResult> UpdateBlogByIdAsync(int id, UpdateBlogCommand command)
         {
-            //if(id != command.Id)
-              //  return BadRequest();
              await Mediator.Send(command);
             return NoContent();
         }

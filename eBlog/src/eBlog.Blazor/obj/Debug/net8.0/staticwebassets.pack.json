@@ -178,7 +178,7 @@
     },
     {
       "Id": "D:\\proiecte\\CleanArchitecture\\eBlog\\src\\eBlog.Blazor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\eBlog.Blazor.bundle.scp.css",
-      "PackagePath": "staticwebassets\\eBlog.Blazor.bundle.scp.css"
+      "PackagePath": "staticwebassets\\eBlog.Blazor.5gzmcwjuw6.bundle.scp.css"
     },
     {
       "Id": "D:\\proiecte\\CleanArchitecture\\eBlog\\src\\eBlog.Blazor\\wwwroot\\Images\\17b61e4c-1564-4dd3-a231-e8fb575986f4.jpg",
@@ -247,6 +247,10 @@
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.eBlog.Blazor.props",
       "PackagePath": "buildTransitive\\eBlog.Blazor.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.eBlog.Blazor.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.eBlog.Blazor.Microsoft.AspNetCore.StaticWebAssets.props",

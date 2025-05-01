@@ -365,3 +365,7 @@ D:\proiecte\CleanArchitecture\eBlog\src\eBlog.Blazor\obj\Debug\net8.0\refint\eBl
 D:\proiecte\CleanArchitecture\eBlog\src\eBlog.Blazor\obj\Debug\net8.0\eBlog.Blazor.pdb
 D:\proiecte\CleanArchitecture\eBlog\src\eBlog.Blazor\obj\Debug\net8.0\eBlog.Blazor.genruntimeconfig.cache
 D:\proiecte\CleanArchitecture\eBlog\src\eBlog.Blazor\obj\Debug\net8.0\ref\eBlog.Blazor.dll
+D:\proiecte\CleanArchitecture\eBlog\src\eBlog.Blazor\bin\Debug\net8.0\eBlog.Blazor.staticwebassets.endpoints.json
+D:\proiecte\CleanArchitecture\eBlog\src\eBlog.Blazor\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\proiecte\CleanArchitecture\eBlog\src\eBlog.Blazor\obj\Debug\net8.0\staticwebassets\msbuild.eBlog.Blazor.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\proiecte\CleanArchitecture\eBlog\src\eBlog.Blazor\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
